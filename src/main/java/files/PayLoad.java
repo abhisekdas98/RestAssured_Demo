@@ -21,4 +21,13 @@ public class PayLoad {
                 "  \"language\": \"French-IN\"\n" +
                 "}";
     }
+
+    public static String UpdatePayLoad()
+    {
+        return "{\n" +
+                "\"place_id\":\"bb4f4ef789d9e7117ffa651a056bc347\",\n" +
+                "\"address\":\"70 winter1 walk, USA\",\n" +
+                "\"key\":\"qaclick123\"\n" +
+                "}";
+    }
 }
