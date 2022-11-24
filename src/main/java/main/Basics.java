@@ -13,6 +13,8 @@ public class Basics {
     {
         RestAssured.baseURI="https://rahulshettyacademy.com";
 
+        //If you encounter noClassDefFound error then some jar is missing
+
         // ADD Place
         String response=given().log().all().queryParam("key","qaclick123")
                 .header("Content-Type","application/json")
